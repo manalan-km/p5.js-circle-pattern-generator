@@ -19,9 +19,9 @@ function draw() {
   x = random(windowWidth);
   y = random(windowHeight);
 
-  r =  random(255);
-  g =  random(255);
-  b =  random(255);
+  r =  random(10,255);
+  g =  random(10,255);
+  b =  random(10,255);
 
   
   alpha = random(80,150);
