@@ -1,7 +1,7 @@
 let x,y;
 let r,g,b;
 
-let radius;
+let radius = 30;
 let alpha;
 
 function setup() {
@@ -23,7 +23,7 @@ function draw() {
   g =  random(255);
   b =  random(255);
 
-  radius = random(30);
+  
   alpha = random(80,150);
   //sets up the fill of the circle
   fill(r,g,b,alpha);
