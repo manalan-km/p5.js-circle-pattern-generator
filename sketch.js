@@ -32,5 +32,10 @@ function draw() {
   //draws the circle
   circle(x,y,radius);
 }
+function mouseClicked()
 
+{
+  clear();
+  setup();  
+}
 
